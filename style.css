@@ -1,0 +1,64 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(45deg, blue, rgb(207, 23, 207))
+}
+
+.container{
+    
+    border-radius: 10px;
+    padding: 20px 20px 40px 20px;
+    text-align: center;
+    width: 70%;
+    background-color: white;
+}
+
+.heading{
+   border-radius: 5px;
+    color: white;
+    font-size: 30px;
+    padding: 10px 0px 10px 0px;
+    background: linear-gradient(45deg, blue, rgb(207, 23, 207));
+    margin-bottom: 40px;
+}
+
+
+#game span {
+    color: blue;
+    font-weight: bolder;
+}
+
+input[type="number"]{
+    color: blue;  
+ }
+
+#guess-input{
+    padding: 10px;
+    border: 2px solid blue;
+    border-radius: 10px;
+   outline: none;   
+}
+
+
+#guess-input::placeholder{
+   color: blue;  
+}
+
+#guess-btn{
+    padding: 13px 25px;
+    cursor: pointer;
+    background: linear-gradient(45deg, blue, rgb(207, 23, 207));
+    color: white;
+    font-weight: bolder;
+    outline: none;
+    border:  none;
+    border-radius: 10px;
+}
+
+
+
